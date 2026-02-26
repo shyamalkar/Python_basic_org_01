@@ -9,7 +9,7 @@ principal = float(input("Enter principle amount:")) # Float for decimal number
 rate = float(input("Enter interest rate: "))
 
 time = float(input("Enter time: "))
-
+ 
 #amount1 = principal * (1 + rate/100) ** time
 
 amount2 = principal * pow((1 + rate/100), time) #First start on bracket and divide / 100 then complete stepby step
