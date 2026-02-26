@@ -8,6 +8,7 @@ print(dict_op)
 student_1 = {"id":1001, "name":"john", "marks":[19.09, 90.10, 20.23, 79.98]}
 print(student_1['marks'][1])
 
+
 print(student_1.keys()) # Key usage for how many value in this variable ?
 
 print(student_1.keys(), type(student_1.keys()))
