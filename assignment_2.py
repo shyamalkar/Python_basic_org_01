@@ -9,6 +9,7 @@ The program should output a greeting like:
 """
 
 
+
 Input_1 = str(input("Enter your first name:"))
 Input_2 = str(input("Enter your last name:"))
 
