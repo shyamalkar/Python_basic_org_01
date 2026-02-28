@@ -10,6 +10,7 @@ print("Before:", my_list)
 my_list[1] = 100
 print("After:", my_list)
 
+
 #Tuple = immutable (Never change)
 my_tuple = (10, 20, 30)
 print("Before:", my_tuple)
