@@ -11,6 +11,7 @@ else:
 # Finale example all in togather 
 
 
+
 num = int(input("Enter number: "))
 
 if num == 0:
