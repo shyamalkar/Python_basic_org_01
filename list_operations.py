@@ -11,6 +11,7 @@ days_of_week = ["Mon", "Tue", "Wed", "Thir", "Fri", "Sat"]
 days_of_week.reverse()
 print(days_of_week)
 
+
 # Next we start using  sort()
 num_list = [1, 2, 4, 56 ,6, 78, 45, 5, 3, 8 ]
 num_list.sort()
