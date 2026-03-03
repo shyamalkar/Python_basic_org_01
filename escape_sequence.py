@@ -21,5 +21,4 @@ print("This is python class")
 
 
 #\"
-
 print("He says, \"we are learning Python\"")
