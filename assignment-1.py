@@ -9,7 +9,7 @@ Problem Statement: Write a Python program that does the following:
 3.  Displays the results of each operation on the screen.
  Expected Output:
 The output should include the result of each operation performed, for example:
-"""
+""" 
 
 Input_1 = int(input("Enter 1st valid Number:"))
 Input_2 = int(input("Enter 2nd valid Number:"))
