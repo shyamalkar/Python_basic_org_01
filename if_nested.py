@@ -7,3 +7,5 @@ if input_1 >= 18:
         print("You can Vote only")
 else:
     print("You are Minor")
+
+
