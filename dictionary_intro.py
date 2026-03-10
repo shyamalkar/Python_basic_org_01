@@ -21,3 +21,4 @@ print(list(groceries.keys())[1])
 
 #If you want to access with values, then use value()
 print(list(groceries.values())[1])
+
