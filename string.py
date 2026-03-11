@@ -16,5 +16,3 @@ total = (sub1 + sub2 + sub3)
 
 print(f"{name} scored \n{sub1 + sub2 + sub3} marks in total")
 print("So the average mark of john is:", (sub1 + sub2 + sub3)/ 3)
-
-
