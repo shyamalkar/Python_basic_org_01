@@ -12,6 +12,7 @@ print(s1)
 #Remove
 s1.remove(2.5)
 print(s1)
+
 #Discard
 s1.discard(100)
 print(s1)
