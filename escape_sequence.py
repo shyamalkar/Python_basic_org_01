@@ -1,6 +1,9 @@
 # \t - tab
+
 # \\ - backslash
+
 # \' - insert a single quate inside a single-quotes string
+
 
 #\n
 #print("Hello everyone. \n How are you ? ")
