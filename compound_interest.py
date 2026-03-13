@@ -1,7 +1,7 @@
 """
 
 Amount = P(1 * R/100) ** T
-ci = Amount - p 
+ci = Amount - p
 """
 
 principal = float(input("Enter principle amount:")) # Float for decimal number
