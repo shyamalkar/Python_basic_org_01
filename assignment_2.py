@@ -13,4 +13,3 @@ Input_1 = str(input("Enter your first name:"))
 Input_2 = str(input("Enter your last name:"))
 
 print(f"Hello, {Input_1 + Input_2}! Welcome to the python program.")
-
