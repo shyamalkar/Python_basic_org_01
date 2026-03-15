@@ -24,4 +24,3 @@ if Input_1 == Input_2:
     print("Multiplication:", Input_1 * Input_2)
 if Input_1 == Input_2:
     print("Division:", Input_1 / Input_2)
-
