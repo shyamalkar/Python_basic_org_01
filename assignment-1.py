@@ -12,7 +12,7 @@ The output should include the result of each operation performed, for example:
 """ 
 
 Input_1 = int(input("Enter 1st valid Number:"))
-Input_2 = int(input("Enter 2nd valid Number:"))
+Input_2 = int(input("Enter 2nd valid Number:")) 
 
 if Input_1 == Input_2:
     print("Addition:",Input_1 + Input_2)
