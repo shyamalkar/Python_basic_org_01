@@ -47,7 +47,7 @@ else:
 # finally = Always run 
 #finally block run always -> it's does't matter error happen or not happen , whether the programm exit or not
 
-try:
+try: 
     x = int(input("Enter number: "))
     print(10 / x)
 

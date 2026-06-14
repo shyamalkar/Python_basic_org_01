@@ -32,4 +32,4 @@ with open("examkle.txt", "w") as f:
 with open("data.txt", "a") as f:
     f.write("\nNew")
 
-#And so on so for 
+#And so on so far 

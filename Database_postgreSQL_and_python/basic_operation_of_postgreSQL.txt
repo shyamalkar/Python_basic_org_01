@@ -14,7 +14,7 @@ CREATE TABLE students (
     name VARCHAR(100),         -- Student name
     age INT,                   -- Age
     marks INT                   -- Marks
-);"""
+);""" 
 
 #Insert the data
 """

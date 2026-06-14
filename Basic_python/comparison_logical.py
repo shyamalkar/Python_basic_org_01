@@ -8,7 +8,7 @@ b = 5
 print(a > b)    # True # grather than ?
 print(a < b)    # False # less than ?
 print(a == b)   # False # equal ?
-print(a != b)   # True # Not equal
+print(a != b)   # True # Not equal 
 print(a >= b)   # True # grather than or equal
 print(a <= b)   # False # less than  or equal
 

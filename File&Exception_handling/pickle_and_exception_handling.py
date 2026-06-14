@@ -37,16 +37,16 @@ store in to a file
 load the file again
 
 #json take only text
-#pickle append all file inside
+#pickle append all file inside that is the different between json and pickle
 
 
 
 Why use pickle ? 
 
-Save the ML model
-To store the python data
-to save Session
-To store complex object
+Save the ML model,
+To store the python data,
+to save Session,
+To store complex object ,
 """
 """
 #Import pickle
@@ -62,15 +62,13 @@ with open("data.pkl", 'wb') as f: # (wb) write binary, create data.pkl file , Bi
 
 #Load the data
 import pickle
-with open('data.pkl', 'rb') as f:
-    data = pickle.load(f)
+#with open('/Users/shyamalkar/Desktop/Coding/Python_Universe_org/File&Exception_handling/data.pickle', 'rb') as f: # read binary 
 
-print(data)
+   # data = pickle.load(f)
 
+#print(data)
 
 #Serialization 
-with open('data.pkl', 'rb') as f:
-    print(pickle.load(f))
-    print(pickle.load(f))
+with open('/Users/shyamalkar/Desktop/Coding/Python_Universe_org/File&Exception_handling/data.pickle', 'rb') as f:
     print(pickle.load(f))
     

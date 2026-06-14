@@ -1,6 +1,6 @@
-age = 20
-has_id = True
+age = 20 # age is a variable 
+has_id = True # Has id is a variable
 
-if age >= 18:
-    if has_id:
+if age >= 18: # checking condition
+    if has_id: # nested condition 
         print("Entry allowed") 

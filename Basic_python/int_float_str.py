@@ -1,5 +1,5 @@
-# Int 
-a = 10
+# Int , with out decimal number that's called int
+a = 10 
 b = -5
 c = 0
 

@@ -29,7 +29,7 @@ with open("student_data_file.json",'x') as fh:
 #create file coding run gain so showing this error . so the right path is you can comment then and run this file 
 
 #Let's open this file 
-
+ 
 with open("student_data_file.json", 'r') as f:
     data = json.load(f)
 

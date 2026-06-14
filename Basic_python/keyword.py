@@ -8,7 +8,7 @@
 """
 False    None     True
 and      as       assert
-async    await    break
+async    await    break 
 class    continue def
 del      elif     else
 except   finally  for
@@ -30,13 +30,13 @@ else:
 
 
 # For use create loop.
-for i in range(3):
+for i in range(3): # count stat from 0 so , output should be = 0, 1, 2
     print(i)
 
-# while loop run until true condition present .
+# while loop run until true  condition present .
 count = 1
 
-while count <= 3:
+while count <= 3: # while count less than or equal 3
     print(count)
     count += 1
 
@@ -83,6 +83,6 @@ except ZeroDivisionError:
 
 # How to see all keyword ? 
 
-import keyword
+#import keyword
 
-print(keyword.kwlist)
+#print(keyword.kwlist)

@@ -9,8 +9,8 @@ Age = float(input("Enter your Age: "))
 
 if Age < 0:
     raise ValueError("Age can't be Zero")
-else:
 
+else:
     if Age >= 10:
         print("You can vote")
 

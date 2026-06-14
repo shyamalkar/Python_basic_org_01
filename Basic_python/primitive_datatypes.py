@@ -19,6 +19,6 @@ z = 0
 age = 21           # int
 height = 5.8       # float
 name = "Shyamal"   # str
-student = True     # bool
+student = True     # bool 
 
 marks = [80, 90]   # list (non-primitive)

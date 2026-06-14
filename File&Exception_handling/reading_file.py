@@ -3,7 +3,7 @@
 
 #Read a file using --> 'r'
 
-f = open("example_1.txt", 'r')
+f = open("/Users/shyamalkar/Desktop/Coding/Python_Universe_org/File&Exception_handling/example_1.txt", 'r')
 data = f.read()
 print(data)
-f.close() 
+f.close()

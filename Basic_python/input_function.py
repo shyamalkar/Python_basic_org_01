@@ -23,3 +23,30 @@ print(price * 2)
 a = int(input("Enter your first number"))
 b = int(input("Enter your second number:"))
 print(a + b)
+
+# let's build a application using these . 
+
+input_1 = str(input("Enter your first name:"))
+input_2 = str(input("Enter your second name:"))
+input_age = int(input("Enter your age:"))
+pan_input = int(input("Enter your CGPA, in float format:"))
+
+# print the full name.
+print("Your full name is:", input_1 + input_2)
+# check condition 
+if  input_age < 0  or input_age > 100:
+    print("Something went wrong")
+else:
+    ("Good number")
+
+if input_age >=18:
+    print("You are eligible for vote, and your age is:", input_age)
+else:
+    print("Your age must be grather than or equal to 18")
+
+if pan_input == 0.9:
+    print("You are pass")
+else:
+    print("You are fail")
+
+
