@@ -13,7 +13,7 @@ print(type(age)) # always return as a string .
 #Then how to work with string ?
 #With int() or float()  type conversion .
 age = int(input("Enter your age: "))
-print(age + 5) # Because here add + 5 
+print(age + 5) # Because here add + 5  
 
 # Float input 
 
