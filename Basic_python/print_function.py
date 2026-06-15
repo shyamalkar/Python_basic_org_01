@@ -18,4 +18,7 @@ print("Python", "Java", "C++", sep="-") # sep help to decide what is the symbol 
 
 print(1, 2, 3, sep=" | ") 
 
+<<<<<<< HEAD
 # So in short print function use for help to show the output .
+=======
+>>>>>>> b9afcd71d2388c25234601a0013b7370a85d57dd

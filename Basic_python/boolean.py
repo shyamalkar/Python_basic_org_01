@@ -3,7 +3,7 @@
 print(type(True))
 print(type(False))
 
-# Why Boolean use for ?
+# Why Boolean usefor ?
 # We often use boolean for take Decision . 
 #E.g., 
 age = 20
@@ -30,6 +30,15 @@ print(5 >= 5)   # True,  because 5 and 5 are equal ,
 print(5 <= 4)   # False, because 4 is not grather than or equal to 5
 
 
+<<<<<<< HEAD
+=======
+print(5 > 3)    # True
+print(5 < 3)    # False 
+print(5 == 5)   # True 
+print(5 != 5)   # False
+print(5 >= 5)   # True
+print(5 <= 4)   # False
+>>>>>>> b9afcd71d2388c25234601a0013b7370a85d57dd
  
 #Boolean Operator
 
@@ -56,7 +65,13 @@ print(weekend or holiday)
 print(not True)   # False, because not true means it is not true so it show opposite, false.
 print(not False)  # True, not false means it is true .
 
+<<<<<<< HEAD
 # Bool can Behavior like int . but we don't use it . and it never gone negative . maximum it can go 0.
 # True is 1 number and False is 0 number 
 print(True + True )  # Output should be 2
 print(False  + True + True ) # Output should be 2
+=======
+# Bool can Behavior like int .
+print(True + True)
+print(True + False)
+>>>>>>> b9afcd71d2388c25234601a0013b7370a85d57dd

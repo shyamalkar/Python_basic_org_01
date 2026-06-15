@@ -6,13 +6,13 @@
 #Special function mostly use in python 
 
 """
-False    None     True
+False    None     True 
 and      as       assert
 async    await    break 
 class    continue def
 del      elif     else
 except   finally  for
-from     global   if
+from     global   if 
 import   in       is
 lambda   nonlocal not
 or       pass     raise
@@ -85,4 +85,8 @@ except ZeroDivisionError:
 
 #import keyword
 
+<<<<<<< HEAD
 #print(keyword.kwlist)
+=======
+print(keyword.kwlist)
+>>>>>>> b9afcd71d2388c25234601a0013b7370a85d57dd
