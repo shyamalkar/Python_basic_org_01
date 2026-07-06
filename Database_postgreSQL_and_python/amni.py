@@ -7,6 +7,6 @@ if input_1 > 18 :
 
     print("Right")
 if input_1 == 18:
-    print("pass")
+    print("pass") 
 if input_1 < minor_age:
     print("Not eligble")  

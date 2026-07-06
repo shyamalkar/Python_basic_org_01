@@ -18,7 +18,7 @@ pattern = r"\d+" # + use for (One or More)
 
 result = re.findall(pattern, text)
 
-print(result)
+print(result) 
  
 #Zero or More -> b have or not , attach both
 

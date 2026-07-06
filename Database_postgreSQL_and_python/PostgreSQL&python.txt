@@ -14,7 +14,7 @@ What is the main feature in PostgreSQL ?
 Which language need for know PostgreSQL ?
                 SQL (Sequal query langauge) is need to learn PostgreSQL.
 
-Every ROW have a unique ID .
+Every ROW have a unique ID . 
 
 One table connect to another table .  
 

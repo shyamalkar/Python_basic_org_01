@@ -20,7 +20,7 @@ try:
 except ZeroDivisionError:
     print("The demonitor cannot be 0")
 
-#What is exception ?
+#What is exception ? 
 """Exception is a error , if you write a programm that showing a error,
  you want to fixed the bug and want to run this programm smoothly then use except for best option handle the error.
 """

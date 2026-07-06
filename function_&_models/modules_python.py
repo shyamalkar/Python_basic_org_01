@@ -4,7 +4,7 @@
 
 import math
 
-print(math.sqrt(16)) # output should be - 4
+print(math.sqrt(16)) # output should be = 4
 
 
 # user define module 

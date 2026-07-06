@@ -52,6 +52,7 @@ for num in nums:
 
 print(smallest)
 
+
 # even number addition 
 nums = [1, 2, 3, 4, 5, 6]
 
@@ -116,3 +117,4 @@ print("Total:", sum(marks))
 print("Highest:", max(marks))
 print("Lowest:", min(marks))
 print("Average:", sum(marks)/len(marks))
+

@@ -1,5 +1,6 @@
 # What is returning values function.
-# return value from function 
+# return value from function where use for help us to show output outside of the function .
+
 def square(x):
     return x ** 2
 

@@ -1,4 +1,4 @@
-# What is nested if statement ? nested statement is ine loop present another loop.
+# What is nested if statement ? nested statement is line loop present another loop.
 
 age = 20
 has_id = True
@@ -9,7 +9,7 @@ if age >= 18:
 
 # All knowladge in one :-
 
-#if use for checking condition
+# if use for checking condition
 # if-else if condition got true then it's work if condition not get matched then another work .
 # if elif else = checking multiple conditiion.
 # nested if - one if present another if .
@@ -27,3 +27,8 @@ if pin_correct:
         print("Insufficient Balance")
 else:
     print("Wrong PIN")  
+
+
+#What is ternary Operator 
+#Ternary operator is a short way of writing an if-else statement in one line.
+

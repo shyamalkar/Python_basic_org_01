@@ -11,6 +11,7 @@ try: # Risky code
 except ZeroDivisionError:
     print("Error")
 
+
 else:
     print("No Error")
  

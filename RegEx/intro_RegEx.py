@@ -54,7 +54,7 @@ else:
 #What is the meaning of span
 
 #span is a start and end index = span=(start, end)
-#match='love' because i found love word . 
+#match='love' because i found love word .  
 
 message_1 = "hello guys i am Shyamal kar , and i am a Python devloper"
 

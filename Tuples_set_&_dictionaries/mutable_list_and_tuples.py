@@ -8,6 +8,3 @@ my_list = [10, 20, 30] # list
 
 # Tuple is immutable
 my_tuple = (10, 20, 30)
-
-
- 

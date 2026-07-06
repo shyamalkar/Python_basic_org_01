@@ -13,11 +13,9 @@ print(2 + 3 * 4)
 
 #  e.g., 
 print(2 ** 3 ** 2) # According to PEMDAS , calculation always right to left, so calculation is = 2 ** (3 ** 2)= 2 ** 9 = 512 .
-
+# Double ** means :- E.g., 1 ** 2 that means 1 × 1 = 1 , 5 ** 2 means  5 × 5 = 25 . that was the hole concent behind the scence.
 #In python operation BODMAS not help in this situation becausebadmas have not any special function like and , or 
  
 
-print(True or False and False) # Output is = True Because, False and False = False True or False = True.
+print("True or False and False is True :", True or False and False) # Output is = True Because, False and False = False True or False = True.
 
-
-# I would say 

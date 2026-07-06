@@ -1,6 +1,6 @@
 import re 
 
-message = "Hello there i am a Python Deploper, and in this lecture i will tech you how to learn python programming language version 13.4.12, are you ready for leqarn this Python programming language."
+message = "Hello there i am a Python Deploper, and in this lecture i will tech you how to learn python programming language version 13.4.12, are you ready for learn this Python programming language."
 
 obj_re = re.findall("[0-9].[0-9][0-9]", message) #[0-9].[0-9] means  start from 0-9 number then after dot then 0-9 inside this message variable .
 

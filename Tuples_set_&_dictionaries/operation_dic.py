@@ -8,7 +8,7 @@ student = {
 
 print(student["name"])
 
-#  get()
+#  get() 
 
 # if don't have key then not showing error 
 
@@ -32,4 +32,6 @@ student.clear()
 
 print(student)
 
-#key, values, items 
+#key, values, items   
+
+

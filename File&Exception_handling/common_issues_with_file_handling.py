@@ -22,7 +22,7 @@ with open("a.txt", "w") as f:
     f.write("Hi")
 
 
-#Overwrite by mistake (w)
+#Overwrite by mistake (w) 
 
 with open("examkle.txt", "w") as f:
     f.write("New") # Old all data are delete

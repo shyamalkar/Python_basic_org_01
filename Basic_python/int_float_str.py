@@ -18,4 +18,4 @@ print(type(x))
 name = "Shyamal" 
 city = 'Kolkata'
 
-print(type(name))
+print("Word type",type(name))

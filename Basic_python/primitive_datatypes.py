@@ -2,7 +2,7 @@
 """Primitive data types generally refer to the most basic data types used to construct other,
  more complex data structures."""
 
-# Importent warning 
+# Importent Notice:-
 """
 There is no official, separate category known as "primitive data types" in Python.
 This term is more commonly used in languages ​​like C and Java. However,
@@ -23,5 +23,3 @@ student = True     # bool
 
 marks = [80, 90]   # list (non-primitive)
 
-
-# billion half people 

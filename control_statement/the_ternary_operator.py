@@ -4,4 +4,5 @@ message = "Adult" if age >= 18 else "Minor"
 
 print(message) 
 
-# Instead of write logic step by step , we write programming in a single line . 
+#What is ternary Operator 
+#Ternary operator is a short way of writing an if-else statement in one line.

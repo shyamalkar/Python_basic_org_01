@@ -12,9 +12,9 @@ print(f"I am {age} years old.")
 
 # we can use expression 
 a = 10
-b = 20
+b = 20 
 
 print(f"Sum = {a + b}")
 
 # why f string is good 
-print("My name is " + name) 
+print("My name is " + name)  

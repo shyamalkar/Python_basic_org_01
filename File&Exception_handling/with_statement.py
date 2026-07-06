@@ -13,7 +13,7 @@ with open("New_file_using_with.txt", 'w') as f:
 
 #appennd data using with 
 
-with open("New_file_using_with.txt", 'a') as f:
+with open("New_file_using_with.txt", 'a') as f: 
     f.write("\nThis is a appended line\n")
     f.write("This is a second append line")
 

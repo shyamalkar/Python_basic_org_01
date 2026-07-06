@@ -38,7 +38,7 @@ except:
 #example:-
 try:
     x = int(input("Enter a number:"))
-    y = 10 / x
+    y = 10 // x
 except:
     print("Wrong input")
 else:

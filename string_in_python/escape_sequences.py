@@ -3,7 +3,7 @@ language = 'Python'
 
 print(type(name))
 
-# How string is work ?
+# How string is work ? 
 # memory look like this 
 """
 | Character      | P  | y  | t  | h  | o  | n  |

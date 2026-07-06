@@ -5,3 +5,4 @@ print(f.read()) #Read first
 
 f.write("\n Updated line")
 f.close()
+

@@ -44,7 +44,6 @@ fruits = ["Apple", "Banana", "Mango"]
 print(fruits[0])
 
 # negative indexing
-
 print(fruits[-1])
 
 

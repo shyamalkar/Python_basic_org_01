@@ -1,7 +1,7 @@
 # Calculate the highest 
-nums = [10, 50, 20, 90, 30]
+nums = [10, 50, 20, 90, 30] # nums is a variable
 
-highest = nums[0]
+highest = nums[0] 
 
 for num in nums:
     if num > highest:

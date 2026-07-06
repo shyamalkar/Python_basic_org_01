@@ -10,7 +10,7 @@ print(square(5))
 """
 def add(a):
     return a + 1
-res = add(1)
+res = add(1) 
 print(res)
 
 """  
@@ -27,4 +27,5 @@ fun = lambda a: a + 1 # Lambda is best for short function not for big function ,
 res = fun(2)
 print(res)
 
+# but lambda especially use for filter(), map(), etc.....
 

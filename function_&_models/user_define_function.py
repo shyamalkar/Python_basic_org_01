@@ -4,7 +4,7 @@
 
 #Python build function 
 print("Hello")
-len("Python")
+print(len("Python"))
 # but if you create your own function 
 def greet():
     print("Hello")

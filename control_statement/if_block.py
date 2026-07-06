@@ -5,11 +5,12 @@ input_1 = int(input("Enter a number: "))
 
 if input_1 > 18 : 
 
-    print("Right")
+    print("Right age")
 
 if input_1 == 18:
     print("pass")
-if input_1 < minor_age:
+
+if input_1 <= minor_age:
     print("Not eligble")
 
 

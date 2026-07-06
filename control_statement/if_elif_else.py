@@ -1,5 +1,5 @@
 # To check multiple condition 
-marks = 75
+marks = input("Enter your exame mark: ")
 
 if marks >= 90:
     print("Grade A")

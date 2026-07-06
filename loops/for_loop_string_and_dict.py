@@ -2,14 +2,14 @@
 fruits = ["Apple", "Banana", "Mango"]
 
 for fruit in fruits:
-    print(fruit)
+    print(fruit) # it can print one value inside the list.
 
 # for loop over a string 
 
 name = "Python"
 
-for ch in name:
-    print(ch)
+for c in name:
+    print(c)
 
 # for loop over dictionary 
 student = {
@@ -18,11 +18,11 @@ student = {
     "city": "Kolkata"
 }
 # Only key 
-for key in student:
-    print(key)
+for ky in student:
+    print(ky)
 
 # Only value 
-for value in student.values():
+for value in student.values(): 
     print(value)
 
 

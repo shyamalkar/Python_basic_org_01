@@ -22,6 +22,8 @@ A.remove(2)
 
 A.discard(100)
 
+
+
 # pop()
 
 A.pop()

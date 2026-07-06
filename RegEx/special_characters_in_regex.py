@@ -1,7 +1,7 @@
 """
 What is Special character ?
    
-   Special character is a character where word is a her own power
+   Special character is a character where word is a his own power
    these are not normal word, 
    these python special word control pattern.
 

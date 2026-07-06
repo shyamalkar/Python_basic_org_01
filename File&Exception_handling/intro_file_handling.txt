@@ -6,24 +6,26 @@ or append ('a')—to manage data flow. It is crucial for saving data permanently
 after a program terminates. 
 """
 
-"""first of all i will teach you how to create a file
-and then i start tech you how to read this and write this ?
+"""
+first of all i will teach you how to create a file
+and then i start tech you how to read this and write this ? 
 then i will teach you  update this and delete this ?
 
 
 
-| Mode | Meaning           |
-| ---- | ----------------- | 
-| `r`  | Read              |
-| `w`  | Write (overwrite) |
-| `a`  | Append (add)      |
-| `x`  | Create new        |
-| `rb` | Read binary       |
-| `wb` | Write binary      |
+| Mode | Meaning          |
+| ---- | -----------------| 
+| `r`  | Read             |
+| `w`  | Write (overwrite)|
+| `a`  | Append (add)     |
+| `x`  | Create new       |
+| `rb` | Read binary      |
+| `wb` | Write binary     |
 
 
 """ 
- 
+
+
 """
 How to create a file ?
 
