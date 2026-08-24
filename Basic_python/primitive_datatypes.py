@@ -12,9 +12,9 @@ for the sake of learning, certain basic types in Python are also referred to as 
 #some example
 #int , for full number.
 
-x = 10
-y = -5
-z = 0
+x = 10 # this is an int number
+y = -5 # this is an minus int number 
+z = 0 # this is an int number 
  
 age = 21           # int
 height = 5.8       # float

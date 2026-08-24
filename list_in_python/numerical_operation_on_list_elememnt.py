@@ -5,22 +5,22 @@ These are very important because they are widely used in Data Science, ML, and e
 
 # These are very importent , because data science, ML , even we use general python programming.
 numbers = [10, 20, 30, 40, 50]
-print(sum(numbers))
 
+print(sum(numbers))
 print(min(numbers))
 print(max(numbers))
 import math
 
-print(math.prod(numbers))
+print("Math prod numbers",math.prod(numbers)) # prod help to multiply number with each others 
 
 nums = [4, 1, 5, 2] 
 
-print(sorted(nums))
+print(sorted(nums)) # sorted use in different types like list, tuple, dictionary.
 
 
 nums = [3, 1, 2]
-
-nums.sort()
+# sort() use only list 
+nums.sort() # sort() and sorted function both are not same , sorted create new list original data is unchanged but sort use for change the original data.
 
 print(nums)
 
@@ -28,7 +28,7 @@ print(nums)
 # Counting numeric values
 nums = [1, 2, 2, 3, 2]
 
-print(nums.count(2))
+print("nums",nums.count(2))
 
 # Finding largest and smalest manually, largest 
 
@@ -40,7 +40,7 @@ for num in nums:
     if num > largest:
         largest = num
 
-print(largest)
+print("largest",largest)
 
 # smallest 
 
@@ -50,7 +50,7 @@ for num in nums:
     if num < smallest:
         smallest = num
 
-print(smallest)
+print("smallest",smallest)
 
 
 # even number addition 

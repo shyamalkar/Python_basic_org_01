@@ -19,7 +19,7 @@ How many major steps in Data analysis ?
 Collection of Data 
 
 processing of Data
-     |_ Comparison of Data
+     |_ Comparison of Data 
         Inspection of Data
 
 Cleaning of data

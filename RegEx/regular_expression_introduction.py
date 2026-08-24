@@ -8,7 +8,7 @@ print(match_obj)
 
 # ^ - Caret. (Caret) means 8 small later must be and start first
 pat = r"^[a-z]{8}"
-match_obj = re.search(pat, s1)
+match_obj = re.search(pat, s1) 
 print(f"caret:", match_obj) 
 
 # $ - dollar -  end of the string 

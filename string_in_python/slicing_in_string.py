@@ -7,7 +7,7 @@ syntx of slicing: string [start: end:step]
 - step: integer that specifies the step for the slicing
 
 """
-print(s1[2:7:1])   #(start : end : step)
+print(s1[2:7:1])   #(start : end : step) # last number is not included .
 
 # at first understand the index
 """
@@ -49,4 +49,4 @@ What is the meaning of step ?
 s = "MachineLearning"
 print(s[3:9:2]) 
 print(s[::3])
-# 
+#  

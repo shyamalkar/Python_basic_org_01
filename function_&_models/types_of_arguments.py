@@ -1,7 +1,7 @@
 # There are 2 types of arguments in python like :- *args and **kwargs 
 
 # What is *args ?
-#*args allows a function to accept any number of positional arguments.
+#*args allows a function to accept any number of positional, length arguments and parameter.
 #coding example:- 
 def numbers(*args): # *args is a tuple
     print(args)
@@ -28,4 +28,4 @@ def student(**kwargs):
     for key, value in kwargs.items():
         print(key, ":", value)
 
-student(name="Shyamal", age=20, country="India")
+student(name="Shyamal", age=20, country="India") 

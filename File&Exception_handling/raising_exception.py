@@ -14,6 +14,6 @@ if Age < 0:
 else:
     if Age >= 10:
         print("You can vote")
-
+ 
     else:
         print("You can't vote") 

@@ -25,8 +25,8 @@ print(lowest)
 # Highest and lowest togather 
 nums = [10, 50, 20, 90, 30]
 
-highest = nums[0]
-lowest = nums[0]
+highest = nums[0] #store here highest
+lowest = nums[0] # store here lowest 
 
 for num in nums:
     if num > highest:

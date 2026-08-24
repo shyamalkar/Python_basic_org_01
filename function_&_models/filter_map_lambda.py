@@ -3,7 +3,7 @@
 
 nums = [1, 2, 3]
 
-result = list(map(lambda x: x * 2, nums))
+result = list(map(lambda x: x * 2 , nums))
 
 print(result)
 
@@ -11,7 +11,7 @@ print(result)
 #Selects the element that meets the condition.
 nums = [1, 2, 3, 4, 5]
 
-result_1 = list(filter(lambda x: x % 2 == 0, nums))
+result_1 = list(filter(lambda x: x % 2 == 0, nums)) # that means , remind these number which are divided by 2 , in nums list. 
 
 print(result_1) 
 

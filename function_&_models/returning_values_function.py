@@ -12,4 +12,4 @@ print(result)
 def info(name, age):
     print(name, age)
 
-info("Shyamal", 21) 
+info("Shyamal", 21)  # i can use anything using info. 

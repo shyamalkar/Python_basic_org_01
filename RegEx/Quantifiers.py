@@ -16,19 +16,19 @@ text = "My age is 21 and my brother is 9"
 
 pattern = r"\d+" # + use for (One or More)
 
-result = re.findall(pattern, text)
+result = re.findall(pattern, text) # pattern in text . 
 
-print(result) 
+print("Using plus symbol + ", result) 
  
-#Zero or More -> b have or not , attach both
+#Zero or More -> b have or not , attach both . 
 
 import re
 text = "ac abc abbc abbbbc"
 
-pattern = r"ab*c" # * means b have or not  count both
+pattern = r"ab*c" # * means b have or not  count both.
 
 result = re.findall(pattern, text)
-print(result)
+print("Using * ", result)
 
 #Zero or One
 
@@ -43,7 +43,7 @@ result = re.findall(pattern, text)
 
 print(result)
 
-#Exact times {n}
+#Exact times {n} .
 
 
 
@@ -51,7 +51,7 @@ import re
 
 text = "Born in 1998, now in 2026, id: 12345"
 
-pattern = r"\d{4}" #{} for exact 
+pattern = r"\d{4}" #{} for exact . 
 
 result = re.findall(pattern, text)
 

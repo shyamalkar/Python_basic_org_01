@@ -49,4 +49,3 @@ if pan_input == 0.9:
 else:
     print("You are fail")
 
-

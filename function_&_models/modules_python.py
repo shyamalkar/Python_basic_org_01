@@ -1,20 +1,9 @@
-#What is modules ?
-# module is a pythin file (.py) where function, variable, class etc presented.
-# module = code separate in sevarel file .
+import math as m
 
-import math
+input_1 = int(input("Enter a number for checking the sqrt: "))
 
-print(math.sqrt(16)) # output should be = 4
+result = m.sqrt(input_1)
+print(result)
 
-
-# user define module 
-# e.g., if i have calculator.py  name file .
-# calculator.py
-
-def add(a, b):
-    return a + b
-
-# Another file 
-#import calculator
-
-#print(calculator.add(2, 3)) 
+result_2 = input_1 ** 0.5 # manually sqrt coding write.
+print(result_2)

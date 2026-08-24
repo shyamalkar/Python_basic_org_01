@@ -20,7 +20,7 @@ with open("New_file_using_with.txt", 'a') as f:
  
 #Update file using with r+ read and write 
 
-with open("New_file_using_with.txt", 'r+') as f:
+with open("New_file_using_with.txt", 'r+') as f: # r+ means read and write . 
     print(f.read()) #first read
 
     f.write("\n Updated Successfully")

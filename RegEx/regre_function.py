@@ -1,4 +1,4 @@
-import re
+import re # import library . 
 
 #sub() ----> sub means replace
 
@@ -14,7 +14,7 @@ Name_list = "Shyamal, Milan, Supra, Bmw, kc, kc, Budha, "
 change_1 = "kc"
 replacement_1 = "Subhadip"
 
-result = re.sub( change_1, replacement_1, Name_list) 
+result = re.sub( change_1, replacement_1, Name_list) # sub function usage for replace 
 
 print(result) 
 

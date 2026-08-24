@@ -12,7 +12,7 @@ def add(*args):
     return sum(args)
 
 print(add(1, 2, 3, 4))
-
+ 
 # Variable length keyword arguments (**kwargs)
 def details(**kwargs): 
     print(kwargs)

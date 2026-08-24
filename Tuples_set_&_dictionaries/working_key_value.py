@@ -14,6 +14,6 @@ student = {
 }
 print(student["age"]) # you find value with manually coding .
 
-print(student.keys())
-print(student.values())
-print(student.items()) 
+print("These are keys", student.keys())
+print("These are values", student.values())
+print("These are items",student.items())  # it is the combination of the two that is called an item.

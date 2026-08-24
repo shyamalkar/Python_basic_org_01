@@ -10,7 +10,7 @@ def withdraw(amount):
 
     if amount <= balance:
         balance -= amount
-        print("Withdrawn:", amount)
+        print("Withdrawn:", amount) 
     else:
         print("Insufficient Balance")
 

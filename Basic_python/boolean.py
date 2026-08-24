@@ -55,13 +55,13 @@ print(False or True)    # True
 print(False or False)   # False
 
 weekend = False
-holiday = True
+holiday = False
 
 print("weekend or holiday",weekend or holiday)
 
 #not, not use also for convert into oposite 
-print(not True)   # False, because not true means it is not true so it show opposite, false.
-print(not False)  # True, not false means it is true .
+print("not True ", not True)   # False, because not true means it is not true so it show opposite, false.
+print("not True ", not False)  # True, not false means it is true .
 
 
 # Bool can Behavior like int . but we don't use it . and it never gone negative . maximum it can go 0.
@@ -70,6 +70,6 @@ print(True + True )  # Output should be 2
 print(False  + True + True ) # Output should be 2
 
 # Bool can Behavior like int .
-print(True + True)
-print(True + False)
+print("True + True =. 1 + 1 = 2 ",True + True)
+print(True + False) 
 

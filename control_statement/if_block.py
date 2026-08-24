@@ -1,29 +1,23 @@
-major_age = 18
-minor_age = 17
 
 input_1 = int(input("Enter a number: "))
 
 if input_1 > 18 : 
 
-    print("Right age")
+    print("Right age, your age is eligible for vote")
 
 if input_1 == 18:
-    print("pass")
+    print("eligible for vote") 
 
-if input_1 <= minor_age:
-    print("Not eligble")
+if input_1 < 18:
+    print("Not eligble for vote")
 
 
 #Another 
  
-age = 20
+input_2 = int(input("Enter your age:"))
 
-if age >= 18:
-    print("You are an adult.")
-
-age = 16
-
-if age >= 18:
-    print("Adult")
+if input_2 >= 18:  
+    print("You are an adult. and you eligible for vote")
 else:
-    print("Minor")
+    print("You are not a adult. and not eligible for vote. ")
+    

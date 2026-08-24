@@ -44,7 +44,7 @@ fruits = ["Apple", "Banana", "Mango"]
 print(fruits[0])
 
 # negative indexing
-print(fruits[-1])
+print("Count list from -1",fruits[-1])
 
 
 # Update element

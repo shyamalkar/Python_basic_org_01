@@ -30,7 +30,7 @@ with open("student_data_file.json",'x') as fh:
 
 #Let's open this file 
  
-with open("student_data_file.json", 'r') as f:
+with open("/Users/shyamalkar/Desktop/Coding/Python_Universe_org/File&Exception_handling/student_data_file.json", 'r') as f:
     data = json.load(f)
 
 print(data)
@@ -38,15 +38,17 @@ print(type(data))
 
 #Let's Update this file 
 
-with open("student_data_file.json",'r') as f:
+with open("/Users/shyamalkar/Desktop/Coding/Python_Universe_org/File&Exception_handling/student_data_file.json",'r') as f:
     data = json.load(f)
 
 #Update operation
 data.update(students)
 
 #dump - write the updated data in the json file
-with open('student_data.json', 'w') as f:
+with open('/Users/shyamalkar/Desktop/Coding/Python_Universe_org/File&Exception_handling/student_data.json', 'w') as f:
     json.dump(data, f, indent=4) # Indent for space , you can add any number but 4 is recommed because you can read with good looking format.
+
+
 
 
 try:

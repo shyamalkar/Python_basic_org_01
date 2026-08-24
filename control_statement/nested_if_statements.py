@@ -18,17 +18,14 @@ if age >= 18:
 # One more example: - 
 balance = 5000
 amount = 2000
-pin_correct = True
+pin_correct = 1234
 
-if pin_correct:
-    if balance >= amount:
-        print("Transaction Successful")
-    else:
-        print("Insufficient Balance")
+input_condition = int(input("Enter input: "))
+
+if input_condition == pin_correct:
+    print("password is correct ")
+elif input_condition <= 5000 :
+    print("Withdraw amount is good, \nWith draw is successfull")
 else:
-    print("Wrong PIN")  
-
-
-#What is ternary Operator 
-#Ternary operator is a short way of writing an if-else statement in one line.
+    print("Don't cross your limit")  
 

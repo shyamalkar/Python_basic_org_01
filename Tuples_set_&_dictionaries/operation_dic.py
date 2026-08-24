@@ -1,4 +1,4 @@
-# WHat is dictionary 
+# What is dictionary 
 
 # Dictionary is key -> Value Mapping 
 student = {
@@ -6,25 +6,19 @@ student = {
     "age": 21
 }
 
-print(student["name"])
-
-#  get() 
-
-# if don't have key then not showing error 
+print(student["name"]) # before ading key at first write student variable . 
 
 
 # update value 
 student["age"] = 22 
-
 print(student)
 
 # remove item 
 student.pop("age")
-
 print(student)
 
 # del 
-del student["city"]
+del student["age"]
 
 # clear
 

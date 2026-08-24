@@ -1,24 +1,18 @@
-name = "Python"
+name = "Python is a most chosen programming language by devlopers today ."
 
 # all capital letter uppercase .
-
-name = "Python"
 print(name.upper()) # OUTPUT should be :- PYTHON
 
-# Lower()
+# all small letter lowecase . 
+print(name.lower()) # Output should be :- hello
 
-text = "HELLO"
-print(text.lower()) # OUTPUT SHOULD BE :- hello
-
-#title()
-text = "hello world . my name is shan"
-print(text.title())  # output = Hello World , title() fun
+print(name.title())  # output = Hello World , title() fun
 
 # capitalize(). only first text write in capital word.
-text = "python programming"
-print(text.capitalize()) # output = Python programming
 
-#strip() remove extra space last and first 
+print(name.capitalize()) # output = Python programming
+
+#strip() help us to remove extra space last and first 
 text = "   Python   " 
 print(text.strip())  
 
@@ -29,10 +23,11 @@ print(text.replace("Java", "Python")) # Python replace the Java word.
 #find ()
 text = "Python"
 f = "Kila"
+print("Find out where present n in python text ?", text.find("o"))
 print('Find function',text.find("t")) # The output should be 2, because it tell us how many word after t presenting, and it always count start from 0 .
 print('find function', f.find("K"))
 
-#count()
+#count() , count function use for  how many time a specific word use in a word language.
 text = "banana"
 
 print(text.count("a"))

@@ -1,15 +1,21 @@
 #What is Recursive function ?
 
 # Recursive is a function where function call it self , that's called recursive function.
+# every recursive function must have 2 critical parts: 
+# the base case: 
+# the recursive case: 
 # e.g., factorial 
 
 def factorial(n):
-    if n == 1:
+    if n == 1:  #Base case: stop when you reach 1 . 
         return 1
 
-    return n * factorial(n - 1)
+    else:
 
-print(factorial(1)) # Output should be := 120
+        return n * factorial(n - 1) # Recursive case: multiply n by the factorical of (n - 1)
+
+
+print(factorial(5)) # Output should be := 120
 
 #because
 

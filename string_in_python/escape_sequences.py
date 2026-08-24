@@ -1,7 +1,7 @@
 name = "Shyamal"
 language = 'Python'
 
-print(type(name))
+print(type(name)) # it's help us what is the data types . 
 
 # How string is work ? 
 # memory look like this 

@@ -20,7 +20,7 @@ clean, visualize, and algorithmic library .
 How many types  of format are you use for analyse the data . 
 
 File format:-
-       (csv, .json, .hdf, .xlsx,.....)
+       (csv, .json, .hdf, .xlsx,.....) 
 
 File path
        (C:/Desktop/My Files/mydata.csv)

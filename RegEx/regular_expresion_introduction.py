@@ -7,7 +7,7 @@ Pattern            Meaning         Example
 \d                 Digit(0-9)          5
 \w	           Word (a-z,A-Z,0-9,_)	  a, A, 1
 .	               Any character	   a, #
-^	                 Start	          ^Hello
+^	                 Start	          ^Hello 
 $	                  End	           com$
 +	               One or more	        a+
 *	               Zero or more	        a*

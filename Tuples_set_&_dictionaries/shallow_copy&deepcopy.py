@@ -1,31 +1,49 @@
-a_1 = [1, 2, 3]
-b_1 = a_1      # Same memory reference
-
-b_1[0] = 100
-
-print(a_1)
-print(b_1)
-
-#Shallow cop - one lever copy.
+# What is shallow copy ?
+# A shallow copy creates a new outer object, but nested objects are still shared.
 
 import copy 
 a = [[1, 2], [3, 4]]
 b = copy.copy(a) # If you write so many same thing just use copy() function. 
 
+#When i use copy function inside looks like this .
+# a = -----> 1, 2, 3, 4
+#   |
+#   |
+#   V
+# b = -----> 1, 2, 3, 4 # remember in inner list are same objects .
+
 b[0][0] = 99
 print(a) 
 print(b)  
 
-#Deep Copy
+# What is deep copy ?
+#Deep copy creats completely independent objects.
 
-import copy
+
+
+import copy 
+
+a = [[1, 2], [3, 4]]
 b = copy.deepcopy(a)
-print(f"b",b)
 
-# Shallow copy without module
-a = [[1,2], [3,4]]
+"""
+a
+ │
+ ▼
+┌───────────────┐
+│  ●────►[1,2]  │
+│  ●────►[3,4]  │
+└───────────────┘
 
-b = a[:]        # slicing
-c = list(a)
+b
+ │
+ ▼
+┌───────────────┐
+│  ●────►[1,2]  │
+│  ●────►[3,4]  │
+└───────────────┘
+"""
+# in a variable = list1 [[1,2],[3,4]]
 
-
+b[0].append(100)
+print("In b list",b)

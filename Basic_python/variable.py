@@ -17,8 +17,8 @@ print(21 * 2)
 age = 21   
 
 print(age)
-print(age + 5)
-print(age * 2) 
-print(age * 2)
+print(age + 5)  # always addition with variable number . 
+print(age * 2)  # always multiply with variable number. 
+print(age // 4) # always devided with variable number. 
 
-# What was the first version of this idea 
+

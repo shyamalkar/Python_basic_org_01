@@ -10,10 +10,12 @@ fruits = ("Apple", "Banana", "Mango")
 
 print(fruits)
 
+
 # Empty tuple
 empty = ()
 
 print(type(empty)) 
+
 
 # Indexing 
 numbers = (10, 20, 30, 40)
@@ -27,7 +29,8 @@ print(numbers[-1])
 
 numbers = (10, 20, 30, 40, 50)
 
-print(numbers[1:4])
+print(numbers[2:4]) # first remove 2 value and print 4th and 3rd value . 
+
 
 #start from 
 print(numbers[:3])
@@ -68,7 +71,7 @@ b = (3, 4)
 print(a + b)
 
 # Repetition 
-print((1, 2) * 3)
+print("repetation", (1, 2) * 3) # write 1, 2 . 3 times. 
 
 #count() how many time in , count this 
 
@@ -111,4 +114,5 @@ print(a, b)
 
 numbers = (10, 20, 30)
 
-numbers[0] = 100
+print("Not changeable reson is this is a tuple, numbers[0] = 100", numbers)
+

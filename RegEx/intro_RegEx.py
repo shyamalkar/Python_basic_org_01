@@ -25,7 +25,7 @@ CSV/Text files
 Using RegEx we clean, filter and check the word. 
 
 """
-message_0 = "I hate love"
+message_0 = "I hate desire"
 """
 #If Python is present in message ,
 #  In use for only check , 
@@ -39,7 +39,7 @@ print(message.find("maer")) #When -1 showing outptu that mean this word can't de
 """
 import re
 
-match_obj = re.search('love', message_0)
+match_obj = re.search('hate', message_0)
 print(match_obj)
 
 if re.search('love', message_0): # If any wrong word are write here then 
@@ -60,3 +60,10 @@ message_1 = "hello guys i am Shyamal kar , and i am a Python devloper"
 
 match_obj = re.search("[A-Z].[a-z]", message_1) # Dot means not a dot character , Dot means match a new line character 
 print(match_obj)
+
+"""
+What is the difference between findall and search ? 
+
+re.search() stops scanning after it finds the very first match anywhere in the string.
+re.findall() scans the entire string and finds every single match.
+"""

@@ -9,7 +9,7 @@ for i in range(1, 6):
 # break 
 # break function help us to break the loop while 3 comes then it stop count 
 for i in range(1, 6):
-    if i == 2:
+    if i == 5:
         break
 
     print("Using break",i) 

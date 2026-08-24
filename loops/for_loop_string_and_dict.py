@@ -19,13 +19,13 @@ student = {
 }
 # Only key 
 for ky in student:
-    print(ky)
+    print("print only key",ky)
 
 # Only value 
 for value in student.values(): 
-    print(value)
+    print("print only value",value)
 
 
 # key and value both 
 for key, value in student.items():
-    print(key, value) 
+    print("key and value both ",key, value) 
